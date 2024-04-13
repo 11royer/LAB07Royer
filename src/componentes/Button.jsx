@@ -1,16 +1,15 @@
-import { useState } from "react";
+import { useState } from "react"
 
-export const Button = props => {
+export const Button = () => {
+    const [count, setCount] = useState(0)
 
-    const {text} = props 
-    const[count, setCount] = useState(0)
-
-    function handlerButon(){
-        setCount(count + 1)
+    function handlerButon() {
+        setCount(count + 5)
     }
+
     return(
-        <button onClick = {handlerButon} >
-            {text} {count}
+        <button onClick={handlerButon}>
+            {count}
         </button>
     )
 }
