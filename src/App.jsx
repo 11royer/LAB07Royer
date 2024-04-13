@@ -4,7 +4,7 @@ import { Button } from './componentes/Button'
 function App(){
   return (
     <>
-      <h1>PUEBA 1</h1>
+      <h1>PUEBA 3</h1>
       <Button/>
     </>
   )
