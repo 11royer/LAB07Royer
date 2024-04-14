@@ -1,15 +1,17 @@
 import './App.css'
 import { Button } from './componentes/Button'
 import RandomComponent from './componentes/RandomComponent'
+import CompWithProps from './componentes/CompWithProps';
 
 function App() {
   return (
     <>
-      <h1>PUEBA 4</h1>
+      <h1>Mi pagina con vite..!!</h1>
       <Button />
       <RandomComponent /> {}
+      <CompWithProps /> {}
     </>
-  );
+  )
 }
 
 

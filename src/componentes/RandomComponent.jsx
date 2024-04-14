@@ -1,4 +1,3 @@
-// RandomComponent.jsx
 import React, { useState } from "react";
 
 const RandomComponent = () => {
@@ -19,13 +18,33 @@ const RandomComponent = () => {
   return (
     <div>
       <p style={{ color: "aqua" }}>RESULTADO: {value}</p>
-      <button onClick={handleIncrement} style={{ backgroundColor: "green", color: "white" }}>
+      <button
+        onClick={handleIncrement}
+        style={{
+          backgroundColor: "green",
+          color: "white",
+          marginRight: "10px", // Separa del siguiente botón
+        }}
+      >
         INCREMENTAR
       </button>
-      <button onClick={handleDecrement} style={{ backgroundColor: "red", color: "white" }}>
+      <button
+        onClick={handleDecrement}
+        style={{
+          backgroundColor: "blue",
+          color: "white",
+          marginRight: "10px", // Separa del siguiente botón
+        }}
+      >
         DECREMENTAR
       </button>
-      <button onClick={handleReset} style={{ backgroundColor: "gray", color: "white" }}>
+      <button
+        onClick={handleReset}
+        style={{
+          backgroundColor: "red",
+          color: "white",
+        }}
+      >
         RESETEAR
       </button>
     </div>
