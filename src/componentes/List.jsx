@@ -1,4 +1,4 @@
-export const List = () => {
+/*export const List = () => {
     return (
         <ul>
           <li> Pan </li>
@@ -6,4 +6,4 @@ export const List = () => {
           <li> Mantequilla </li>
         </ul>  
     )
-  }
+  }*/

@@ -1,14 +1,27 @@
 import './App.css'
 import { Button } from './componentes/Button'
+import RandomComponent from './componentes/RandomComponent'
 
-function App(){
+function App() {
+  return (
+    <>
+      <h1>PUEBA 4</h1>
+      <Button />
+      <RandomComponent /> {}
+    </>
+  );
+}
+
+
+//prueba 3
+/*function App(){
   return (
     <>
       <h1>PUEBA 3</h1>
       <Button/>
     </>
   )
-}
+}*/
 
 
 
